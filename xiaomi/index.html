@@ -1,0 +1,1645 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>小米商城 - 小米10 Pro、Redmi 10X、小米MIX Alpha，小米电视官方网站</title>
+		<meta name="keywords" content="小米,redmi,小米10,Redmi 10X,小米MIX Alpha,小米商城"/>
+		<meta name="description" content="小米官网直营小米公司旗下所有产品，包括小米手机系列小米10 Pro 、小米9、小米MIX Alpha，Redmi 红米系列Redmi 10X、Redmi K30，小米电视、笔记本、米家智能家居等，同时提供小米客户服务及售后支持."/>
+		<!--处理默认样式-->
+		<link rel="stylesheet"  href="./css/reset.css"/>
+		<!--公共的CSS-->
+		<link rel="stylesheet"  href="./css/style.css"/>
+		<!--首页的CSS-->
+		<link rel="stylesheet"  href="./css/index.css"/>
+		<!--字体图表样式-->
+		<link rel="stylesheet" href="./font/iconfont.css">
+		<!--引入网页标题图标-->
+		<link rel="shortcut icon" href="./img/icons/favicon.ico" type="image/x-icon"/>
+		
+	</head>
+	<body>
+		<!-- 顶部S -->
+		<div class="page-top">
+			<div class="container">
+				<div class="top-lt">
+					<a href="">小米商城</a>
+					<span>|</span>
+					<a href="">MIUI</a>
+					<span>|</span>
+					<a href="">IoT</a>
+					<span>|</span>
+					<a href="">云服务</a>
+					<span>|</span>
+					<a href="">金融</a>
+					<span>|</span>
+					<a href="">有品</a>
+					<span>|</span>
+					<a href="">小爱开放平台</a>
+					<span>|</span>
+					<a href="">企业团购</a>
+					<span>|</span>
+					<a href="">资质证照</a>
+					<span>|</span>
+					<a href="">协议规则</a>
+					<span>|</span>
+					<a href="" class="download">下载app
+						<div class="download-box">
+							<b></b>
+							<img src="./img/download.PNG" alt="小米商城app"/>
+								<i>小米商城APP</i>
+						</div>
+					</a>
+					<span>|</span>
+					<a href="">Select Location</a>
+				</div>
+				<div class="top-gt">
+					<div class="car-box">
+						<a href="" class="tit">
+							<i class="iconfont icon-gouwuchekong"></i>
+							购物车
+							(<span id="goodCount">0</span>)
+						</a>
+						<div class="pop">
+							<p class="no-good" id="nogood">购物车中还没有商品，赶紧选购吧！</p>
+							<ul class="list" id="boxlist">
+							</ul>
+							<div class="total" id="total">
+								<div class="price">
+									<p>共<span id="goodnum">0</span>件商品</p>
+									<h3><span id="totalprice">0</span>元</h3>
+								</div>
+								<a href="" class="btn">去购物车结算</a>
+							</div>
+						</div>
+					</div>
+					<div class="login" id="logout">
+						<a href="loginform.html">登录</a>
+						<span>|</span>
+						<a id="regis">注册</a>
+						<span>|</span>
+						<a href="">消息通知</a>
+					</div>
+					<div class="userinfo" id="login">
+						<div class="user">
+							<a href="" class="tit" id="nickname">xxx</a>
+							<ul>
+								<li>
+									<a href="">个人中心</a>
+								</li>
+								<li>
+									<a href="">评价晒单</a>
+								</li>
+								<li>
+									<a href="">我的喜欢</a>
+								</li>
+								<li>
+									<a href="">小米账户</a>
+								</li>
+								<li><a id="exit" onclick="logOut()">退出登录</a></li>
+							</ul>
+						</div>
+						<a href="" class="link">消息通知</a>
+						<span>|</span>
+						<a href="" class="link">我的订单</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 顶部E -->
+		
+		<!-- 导航S -->
+		<div class="page-nav">
+			<div class="container">
+				<a href="" class="logo">
+					
+				</a>
+				<ul class="nav">
+					<li class="nav-item all-nav">
+						<a href="" class="title">全部商品分类</a>
+						<!-- 全部商品分类下拉菜单 -->
+						<div class="slide-nav">
+							<ul class="slide-ul">
+								<li class="slide-li">
+									<a href="" class="name">
+										<span>手机</span>
+										<span>电话卡</span>
+										<i class="iconfont icon-xiangyou"></i>
+									</a>
+									<div class="slide-pop">
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+										<a href="" class="pop-li">
+											<img src="./img/xiaomitv.png" alt="">
+											<p>小米透明电视</p>
+										</a>
+									</div>
+								</li>
+								<li class="slide-li">
+									<a href="" class="name">
+										<span>手机</span>
+										<span>电话卡</span>
+										<i class="iconfont icon-xiangyou"></i>
+									</a>
+								</li>
+								<li class="slide-li">
+									<a href="" class="name">
+										<span>手机</span>
+										<span>电话卡</span>
+										<i class="iconfont icon-xiangyou"></i>
+									</a>
+								</li>
+								<li class="slide-li">
+									<a href="" class="name">
+										<span>手机</span>
+										<span>电话卡</span>
+										<i class="iconfont icon-xiangyou"></i>
+									</a>
+								</li>
+								<li class="slide-li">
+									<a href="" class="name">
+										<span>手机</span>
+										<span>电话卡</span>
+										<i class="iconfont icon-xiangyou"></i>
+									</a>
+								</li>
+								<li class="slide-li">
+									<a href="" class="name">
+										<span>手机</span>
+										<span>电话卡</span>
+										<i class="iconfont icon-xiangyou"></i>
+									</a>
+								</li>
+								<li class="slide-li">
+									<a href="" class="name">
+										<span>手机</span>
+										<span>电话卡</span>
+										<i class="iconfont icon-xiangyou"></i>
+									</a>
+								</li>
+								<li class="slide-li">
+									<a href="" class="name">
+										<span>手机</span>
+										<span>电话卡</span>
+										<i class="iconfont icon-xiangyou"></i>
+									</a>
+								</li>
+								<li class="slide-li">
+									<a href="" class="name">
+										<span>手机</span>
+										<span>电话卡</span>
+										<i class="iconfont icon-xiangyou"></i>
+									</a>
+								</li>
+								<li class="slide-li">
+									<a href="" class="name">
+										<span>手机</span>
+										<span>电话卡</span>
+										<i class="iconfont icon-xiangyou"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a href="" class="title">小米手机</a>
+						<div class="pop">
+							<ul class="down-ul container">
+								<li class="down-li">
+									<span class="tags">新品</span>
+									<a href="" class="pic">
+										<img src="./img/phone.png" alt="">
+									</a>
+									<h3 class="name">小米8青春版</h3>
+									<p class="price">2999元</p>
+									<i></i>
+								</li>
+								<li class="down-li">
+									<span class="tags">新品</span>
+									<a href="" class="pic">
+										<img src="./img/phone.png" alt="">
+									</a>
+									<h3 class="name">小米8青春版</h3>
+									<p class="price">2999元</p>
+									<i></i>
+								</li>
+								<li class="down-li">
+									<span class="tags">新品</span>
+									<a href="" class="pic">
+										<img src="./img/phone.png" alt="">
+									</a>
+									<h3 class="name">小米8青春版</h3>
+									<p class="price">2999元</p>
+									<i></i>
+								</li>
+								<li class="down-li">
+									<span class="tags">新品</span>
+									<a href="" class="pic">
+										<img src="./img/phone.png" alt="">
+									</a>
+									<h3 class="name">小米8青春版</h3>
+									<p class="price">2999元</p>
+									<i></i>
+								</li>
+								<li class="down-li">
+									<span class="tags">新品</span>
+									<a href="" class="pic">
+										<img src="./img/phone.png" alt="">
+									</a>
+									<h3 class="name">小米8青春版</h3>
+									<p class="price">2999元</p>
+									<i></i>
+								</li>
+								<li class="down-li last">
+									<span class="tags">新品</span>
+									<a href="" class="pic">
+										<img src="./img/phone.png" alt="">
+									</a>
+									<h3 class="name">小米8青春版</h3>
+									<p class="price">2999元</p>
+									<i></i>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a href="" class="title">Redmi红米</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="title">电视</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="title">笔记本</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="title">家电</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="title">路由器</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="title">智能硬件</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="title">服务</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="title">社区</a>
+					</li>
+				</ul>
+				<div class="search">
+					<form action="" method="post">
+						<input type="text" class="q">
+						<input type="submit" class="btn "  value="">
+						<span class="tags">小米9</span>
+						<span class="tags">小米9SE</span>
+					<ul class="hot">
+						<li href="">空调</li>
+						<li href="">耳机</li>
+						<li href="">小米10</li>
+						<li href="">净水机</li>
+						<li href="">洗衣机</li>
+						<li href="">小米透明电视</li>
+						<li href="">智能蒸烤箱</li>
+					</ul>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- 导航E -->
+		<!-- 轮播导航S -->
+		<div class="idx-banner container" id="bannerBox">
+			<ul class="banner-list">
+				<li><img src="./img/banner-img1.png" alt=""><a href=""></a></li>
+				<li><img src="./img/banner-img2.png" alt=""><a href=""></a></li>
+				<li><img src="./img/banner-img3.png" alt=""><a href=""></a></li>
+				<li><img src="./img/banner-img4.png" alt=""><a href=""></a></li>
+				<li><img src="./img/banner-img5.png" alt=""><a href=""></a></li>
+			</ul>
+			<a  class="btn prev"></a>
+			<a  class="btn next"></a>
+			<div class="page">
+				<a onclick="onclickpage(this)"><span></span></a>
+				<a onclick="onclickpage(this)"><span></span></a>
+				<a onclick="onclickpage(this)"><span></span></a>
+				<a onclick="onclickpage(this)"><span></span></a>
+				<a onclick="onclickpage(this)"><span></span></a>
+			</div>
+		</div>
+		<!-- 轮播导航E -->
+		<!-- 菜单和广告S -->
+		<div class="idx-menu-adv container">
+			<ul class="menu">
+				<li class="br bb"><a href=""><i class="iconfont icon-clock"></i><span>小米秒杀</span></a></li>
+				<li class="br bb"><a href=""><i class="iconfont icon-loufang"></i><span>企业团购</span></a></li>
+				<li class="bb"><a href=""><i class="iconfont icon-F_round"></i><span>F码通道</span></a></li>
+				<li class="br"><a href=""><i class="iconfont icon-SIMqiaguanli"></i><span>米粉卡</span></a></li>
+				<li class="br"><a href=""><i class="iconfont icon-rmb"></i><span>以旧换新</span></a></li>
+				<li><a href=""><i class="iconfont icon-24huafei"></i><span>话费充值</span></a></li>
+			</ul>
+			<a href="" class="pic"><img src="./img/adv1.png" alt=""></a>
+			<a href="" class="pic"><img src="./img/adv2.png" alt=""></a>
+			<a href="" class="pic"><img src="./img/adv3.png" alt=""></a>
+		</div>
+		<!-- 菜单和广告E -->
+		<!-- 广告图 S-->
+		<div class="idx-adv container">
+			<a href=""><img src="./img/long-adv1.png" alt=""></a>
+		</div>
+		<!-- 广告图E -->
+		<!-- 大内容区S -->
+		<div class="idx-container">
+			<div class="container">
+				<!-- 手机 -->
+				<div class="idx-phone">
+					<div class="idx-title">
+						<span class="tit">手机</span>
+						<a href="" class="showall">
+							查看全部<i class="iconfont icon-Group-"></i>
+						</a>
+					</div>
+				<div class="idx-box">
+					<div class="adv-box col-5">
+						<a href="" class="single"><img src="./img/adv4.png" alt=""></a>
+					</div>
+					<div class="good-box">
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good1.png" alt=""></a>
+							<h3 class="name"><a href="">小米黑鲨3S</a></h3>
+							<h4 class="desc">骁龙865处理器，   120HZ刷新率</h4>
+							<p class="price"><span>1599元</span><del>1999元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good1.png" alt=""></a>
+							<h3 class="name"><a href="">小米黑鲨3S</a></h3>
+							<h4 class="desc">骁龙865处理器，   120HZ刷新率</h4>
+							<p class="price"><span>1599元</span><del>1999元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good1.png" alt=""></a>
+							<h3 class="name"><a href="">小米黑鲨3S</a></h3>
+							<h4 class="desc">骁龙865处理器，   120HZ刷新率</h4>
+							<p class="price"><span>1599元</span><del>1999元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good1.png" alt=""></a>
+							<h3 class="name"><a href="">小米黑鲨3S</a></h3>
+							<h4 class="desc">骁龙865处理器，   120HZ刷新率</h4>
+							<p class="price"><span>1599元</span><del>1999元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags glibly">满减200元</span>
+							<a href="" class="pic"><img src="./img/good1.png" alt=""></a>
+							<h3 class="name"><a href="">小米黑鲨3S</a></h3>
+							<h4 class="desc">骁龙865处理器，   120HZ刷新率</h4>
+							<p class="price"><span>1599元</span><del>1999元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags glibly">满减200元</span>
+							<a href="" class="pic"><img src="./img/good1.png" alt=""></a>
+							<h3 class="name"><a href="">小米黑鲨3S</a></h3>
+							<h4 class="desc">骁龙865处理器，   120HZ刷新率</h4>
+							<p class="price"><span>1599元</span><del>1999元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags glibly">满减200元</span>
+							<a href="" class="pic"><img src="./img/good1.png" alt=""></a>
+							<h3 class="name"><a href="">小米黑鲨3S</a></h3>
+							<h4 class="desc">骁龙865处理器，   120HZ刷新率</h4>
+							<p class="price"><span>1599元</span><del>1999元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5 ">
+							<span class="tags glibly">满减200元</span>
+							<a href="" class="pic"><img src="./img/good1.png" alt=""></a>
+							<h3 class="name"><a href="">小米黑鲨3S</a></h3>
+							<h4 class="desc">骁龙865处理器，   120HZ刷新率</h4>
+							<p class="price"><span>1599元</span><del>1999元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="idx-adv">
+					<a href=""><img src="./img/long-adv2.png" alt=""></a>
+				</div>
+				<!-- 家电 -->
+				<div class="idx-appliance">
+					<div class="idx-title">
+						<span class="tit">家电</span>
+						<ul class="list plates">
+							<li class="active" onmouseover="switchgood(0,0)"><span>热门</span></li>
+							<li onmouseover="switchgood(0,1)"><span>电视影音</span></li>
+						</ul>
+					</div>
+				<div class="idx-box">
+					<div class="adv-box">
+						<a href="" class="double col-5">
+							<img src="./img/slide1.png" alt="">
+						</a>
+						<a href="" class="double col-5">
+							<img src="./img/slide2.png" alt="">
+						</a>
+					</div>
+					<div class="good-box">
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good2.png" alt=""></a>
+							<h3 class="name"><a href="">米家空调</a></h3>
+							<h4 class="desc">出众静音，快速制冷热</h4>
+							<p class="price"><span>1799元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good2.png" alt=""></a>
+							<h3 class="name"><a href="">米家空调</a></h3>
+							<h4 class="desc">出众静音，快速制冷热</h4>
+							<p class="price"><span>1799元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good2.png" alt=""></a>
+							<h3 class="name"><a href="">米家空调</a></h3>
+							<h4 class="desc">出众静音，快速制冷热</h4>
+							<p class="price"><span>1799元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good2.png" alt=""></a>
+							<h3 class="name"><a href="">米家空调</a></h3>
+							<h4 class="desc">出众静音，快速制冷热</h4>
+							<p class="price"><span>1799元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags glibly">满减200元</span>
+							<a href="" class="pic"><img src="./img/good2.png" alt=""></a>
+							<h3 class="name"><a href="">米家空调</a></h3>
+							<h4 class="desc">出众静音，快速制冷热</h4>
+							<p class="price"><span>1799元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags glibly">满减200元</span>
+							<a href="" class="pic"><img src="./img/good2.png" alt=""></a>
+							<h3 class="name"><a href="">米家空调</a></h3>
+							<h4 class="desc">出众静音，快速制冷热</h4>
+							<p class="price"><span>1799元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good2.png" alt=""></a>
+							<h3 class="name"><a href="">米家空调</a></h3>
+							<h4 class="desc">出众静音，快速制冷热</h4>
+							<p class="price"><span>1799元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="last-more">
+							<div class="good-top col-5">
+								<div class="txt">
+									<h3><a href="">Air 13.3"2019款</a></h3>
+									<p><a href="">5699元起</a></p>
+								</div>
+								<a href="" class="sm-img">
+									<img src="./img/sm-img6.png" alt="">
+								</a>
+							</div>
+							<div class="good-more col-5">
+								<div class="txt">
+									<h3><a href="">浏览更多</a></h3>
+									<p><a href="">热门</a></p>
+								</div>
+								<i class="iconfont icon-xiangyou1"></i>
+							</div>
+						</div>
+					</div>
+					<div class="good-box">
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good3.png" alt=""></a>
+							<h3 class="name"><a href="">Redmi红米电视70英寸</a></h3>
+							<h4 class="desc">70英寸震撼巨屏，4K画质，细腻如真</h4>
+							<p class="price"><span>3199元</span><del>3799元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good3.png" alt=""></a>
+							<h3 class="name"><a href="">Redmi红米电视70英寸</a></h3>
+							<h4 class="desc">70英寸震撼巨屏，4K画质，细腻如真</h4>
+							<p class="price"><span>3199元</span><del>3799元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good3.png" alt=""></a>
+							<h3 class="name"><a href="">Redmi红米电视70英寸</a></h3>
+							<h4 class="desc">70英寸震撼巨屏，4K画质，细腻如真</h4>
+							<p class="price"><span>3199元</span><del>3799元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good3.png" alt=""></a>
+							<h3 class="name"><a href="">Redmi红米电视70英寸</a></h3>
+							<h4 class="desc">70英寸震撼巨屏，4K画质，细腻如真</h4>
+							<p class="price"><span>3199元</span><del>3799元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags glibly">满减200元</span>
+							<a href="" class="pic"><img src="./img/good3.png" alt=""></a>
+							<h3 class="name"><a href="">Redmi红米电视70英寸</a></h3>
+							<h4 class="desc">70英寸震撼巨屏，4K画质，细腻如真</h4>
+							<p class="price"><span>3199元</span><del>3799元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags glibly">满减200元</span>
+							<a href="" class="pic"><img src="./img/good3.png" alt=""></a>
+							<h3 class="name"><a href="">Redmi红米电视70英寸</a></h3>
+							<h4 class="desc">70英寸震撼巨屏，4K画质，细腻如真</h4>
+							<p class="price"><span>3199元</span><del>3799元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good3.png" alt=""></a>
+							<h3 class="name"><a href="">Redmi红米电视70英寸</a></h3>
+							<h4 class="desc">70英寸震撼巨屏，4K画质，细腻如真</h4>
+							<p class="price"><span>3199元</span><del>3799元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="last-more">
+							<div class="good-top col-5">
+								<div class="txt">
+									<h3><a href="">小米壁画电视65英寸</a></h3>
+									<p><a href="">6999元</a></p>
+								</div>
+								<a href="" class="sm-img">
+									<img src="./img/sm-img1.png" alt="">
+								</a>
+							</div>
+							<div class="good-more col-5">
+								<div class="txt">
+									<h3><a href="">浏览更多</a></h3>
+									<p><a href="">电视影音</a></p>
+								</div>
+								<i class="iconfont icon-xiangyou1"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="idx-adv">
+					<a href=""><img src="./img/long-adv3.png" alt=""></a>
+				</div>
+				<!-- 智能 -->
+				<div class="idx-intelligent">
+					<div class="idx-title">
+						<span class="tit">智能</span>
+						<ul class="list plates">
+							<li class="active" onmouseover="switchgood(1,0)"><span>热门</span></li>
+							<li onmouseover="switchgood(1,1)"><span>安防</span></li>
+							<li onmouseover="switchgood(1,2)"><span>出行</span></li>
+						</ul>
+					</div>
+				<div class="idx-box">
+					<div class="adv-box">
+						<a href="" class="double col-5">
+							<img src="./img/slide3.png" alt="">
+						</a>
+						<a href="" class="double col-5">
+							<img src="./img/slide4.png" alt="">
+						</a>
+					</div>
+					<div class="good-box">
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good5.png" alt=""></a>
+							<h3 class="name"><a href="">小米小爱音箱play</a></h3>
+							<h4 class="desc">听音乐  语音遥控家电</h4>
+							<p class="price"><span>99元</span><del>169元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good5.png" alt=""></a>
+							<h3 class="name"><a href="">小米小爱音箱play</a></h3>
+							<h4 class="desc">听音乐  语音遥控家电</h4>
+							<p class="price"><span>99元</span><del>169元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good5.png" alt=""></a>
+							<h3 class="name"><a href="">小米小爱音箱play</a></h3>
+							<h4 class="desc">听音乐  语音遥控家电</h4>
+							<p class="price"><span>99元</span><del>169元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good5.png" alt=""></a>
+							<h3 class="name"><a href="">小米小爱音箱play</a></h3>
+							<h4 class="desc">听音乐  语音遥控家电</h4>
+							<p class="price"><span>99元</span><del>169元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags glibly">满减200元</span>
+							<a href="" class="pic"><img src="./img/good5.png" alt=""></a>
+							<h3 class="name"><a href="">小米小爱音箱play</a></h3>
+							<h4 class="desc">听音乐  语音遥控家电</h4>
+							<p class="price"><span>99元</span><del>169元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags glibly">满减200元</span>
+							<a href="" class="pic"><img src="./img/good5.png" alt=""></a>
+							<h3 class="name"><a href="">小米小爱音箱play</a></h3>
+							<h4 class="desc">听音乐  语音遥控家电</h4>
+							<p class="price"><span>99元</span><del>169元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags glibly">满减200元</span>
+							<a href="" class="pic"><img src="./img/good5.png" alt=""></a>
+							<h3 class="name"><a href="">小米小爱音箱play</a></h3>
+							<h4 class="desc">听音乐  语音遥控家电</h4>
+							<p class="price"><span>99元</span><del>169元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="last-more">
+							<div class="good-top col-5">
+								<div class="txt">
+									<h3><a href="">9号平衡车</a></h3>
+									<p><a href="">1999元</a></p>
+								</div>
+								<a href="" class="sm-img">
+									<img src="./img/sm-img7.png" alt="">
+								</a>
+							</div>
+							<div class="good-more col-5">
+								<div class="txt">
+									<h3><a href="">浏览更多</a></h3>
+									<p><a href="">热门</a></p>
+								</div>
+								<i class="iconfont icon-xiangyou1"></i>
+							</div>
+						</div>
+				</div>
+					<div class="good-box">
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good4.png" alt=""></a>
+							<h3 class="name"><a href="">米家智能门锁  青春版</a></h3>
+							<h4 class="desc">隐形指纹识别设计 简单一步快进家门</h4>
+							<p class="price"><span>999元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good4.png" alt=""></a>
+							<h3 class="name"><a href="">米家智能门锁  青春版</a></h3>
+							<h4 class="desc">隐形指纹识别设计 简单一步快进家门</h4>
+							<p class="price"><span>999元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good4.png" alt=""></a>
+							<h3 class="name"><a href="">米家智能门锁  青春版</a></h3>
+							<h4 class="desc">隐形指纹识别设计 简单一步快进家门</h4>
+							<p class="price"><span>999元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good4.png" alt=""></a>
+							<h3 class="name"><a href="">米家智能门锁  青春版</a></h3>
+							<h4 class="desc">隐形指纹识别设计 简单一步快进家门</h4>
+							<p class="price"><span>999元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good4.png" alt=""></a>
+							<h3 class="name"><a href="">米家智能门锁  青春版</a></h3>
+							<h4 class="desc">隐形指纹识别设计 简单一步快进家门</h4>
+							<p class="price"><span>999元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good4.png" alt=""></a>
+							<h3 class="name"><a href="">米家智能门锁  青春版</a></h3>
+							<h4 class="desc">隐形指纹识别设计 简单一步快进家门</h4>
+							<p class="price"><span>999元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good4.png" alt=""></a>
+							<h3 class="name"><a href="">米家智能门锁  青春版</a></h3>
+							<h4 class="desc">隐形指纹识别设计 简单一步快进家门</h4>
+							<p class="price"><span>999元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="last-more">
+							<div class="good-top col-5">
+								<div class="txt">
+									<h3><a href="">小米米家智能摄像机云台版</a></h3>
+									<p><a href="">179元</a></p>
+								</div>
+								<a href="" class="sm-img">
+									<img src="./img/sm-img2.png" alt="">
+								</a>
+							</div>
+							<div class="good-more col-5">
+								<div class="txt">
+									<h3><a href="">浏览更多</a></h3>
+									<p><a href="">安防</a></p>
+								</div>
+								<i class="iconfont icon-xiangyou1"></i>
+							</div>
+						</div>
+				</div>
+					<div class="good-box">
+							<div class="good-item col-5">
+								<a href="" class="pic"><img src="./img/good9.png" alt=""></a>
+								<h3 class="name"><a href="">9号平衡车 Plus</a></h3>
+								<h4 class="desc">一个形影不离的新伙伴</h4>
+								<p class="price"><span>3499元</span></p>
+								<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+							</div>
+							<div class="good-item col-5">
+								<a href="" class="pic"><img src="./img/good9.png" alt=""></a>
+								<h3 class="name"><a href="">9号平衡车 Plus</a></h3>
+								<h4 class="desc">一个形影不离的新伙伴</h4>
+								<p class="price"><span>3499元</span></p>
+								<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+							</div>
+							<div class="good-item col-5">
+								<a href="" class="pic"><img src="./img/good9.png" alt=""></a>
+								<h3 class="name"><a href="">9号平衡车 Plus</a></h3>
+								<h4 class="desc">一个形影不离的新伙伴</h4>
+								<p class="price"><span>3499元</span></p>
+								<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+							</div>
+							<div class="good-item col-5">
+								<a href="" class="pic"><img src="./img/good9.png" alt=""></a>
+								<h3 class="name"><a href="">9号平衡车 Plus</a></h3>
+								<h4 class="desc">一个形影不离的新伙伴</h4>
+								<p class="price"><span>3499元</span></p>
+								<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+							</div>
+							<div class="good-item col-5">
+								<a href="" class="pic"><img src="./img/good9.png" alt=""></a>
+								<h3 class="name"><a href="">9号平衡车 Plus</a></h3>
+								<h4 class="desc">一个形影不离的新伙伴</h4>
+								<p class="price"><span>3499元</span></p>
+								<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+							</div>
+							<div class="good-item col-5">
+								<a href="" class="pic"><img src="./img/good9.png" alt=""></a>
+								<h3 class="name"><a href="">9号平衡车 Plus</a></h3>
+								<h4 class="desc">一个形影不离的新伙伴</h4>
+								<p class="price"><span>3499元</span></p>
+								<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+							</div>
+							<div class="good-item col-5">
+								<a href="" class="pic"><img src="./img/good9.png" alt=""></a>
+								<h3 class="name"><a href="">9号平衡车 Plus</a></h3>
+								<h4 class="desc">一个形影不离的新伙伴</h4>
+								<p class="price"><span>3499元</span></p>
+								<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+							</div>
+							<div class="last-more">
+								<div class="good-more col-5">
+									<div class="txt">
+										<h3><a href="">浏览更多</a></h3>
+										<p><a href="">出行</a></p>
+									</div>
+									<i class="iconfont icon-xiangyou1"></i>
+								</div>
+							</div>
+					</div>
+				</div>
+				</div>
+				<div class="idx-adv">
+					<a href=""><img src="./img/long-adv4.png" alt=""></a>
+				</div>
+				<!-- 搭配 -->
+				<div class="idx-collocation">
+					<div class="idx-title">
+						<span class="tit">搭配</span>
+						<ul class="list plates">
+							<li class="active" onmouseover="switchgood(2,0)"><span>热门</span></li>
+							<li onmouseover="switchgood(2,1)"><span>耳机音响</span></li>
+						</ul>
+					</div>
+				<div class="idx-box">
+					<div class="adv-box">
+						<a href="" class="double col-5">
+							<img src="./img/slide5.png" alt="">
+						</a>
+						<a href="" class="double col-5">
+							<img src="./img/slide6.png" alt="">
+						</a>
+					</div>
+					<div class="good-box">
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good6.png" alt=""></a>
+							<h3 class="name"><a href="">小米真无线蓝牙耳机Air2</a></h3>
+							<h4 class="desc">智能真无线， 轻松舒适戴</h4>
+							<p class="price"><span>299元</span><del>399元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good6.png" alt=""></a>
+							<h3 class="name"><a href="">小米真无线蓝牙耳机Air2</a></h3>
+							<h4 class="desc">智能真无线， 轻松舒适戴</h4>
+							<p class="price"><span>299元</span><del>399元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good6.png" alt=""></a>
+							<h3 class="name"><a href="">小米真无线蓝牙耳机Air2</a></h3>
+							<h4 class="desc">智能真无线， 轻松舒适戴</h4>
+							<p class="price"><span>299元</span><del>399元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags new">新品</span>
+							<a href="" class="pic"><img src="./img/good6.png" alt=""></a>
+							<h3 class="name"><a href="">小米真无线蓝牙耳机Air2</a></h3>
+							<h4 class="desc">智能真无线， 轻松舒适戴</h4>
+							<p class="price"><span>299元</span><del>399元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags glibly">满减200元</span>
+							<a href="" class="pic"><img src="./img/good6.png" alt=""></a>
+							<h3 class="name"><a href="">小米真无线蓝牙耳机Air2</a></h3>
+							<h4 class="desc">智能真无线， 轻松舒适戴</h4>
+							<p class="price"><span>299元</span><del>399元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags glibly">满减200元</span>
+							<a href="" class="pic"><img src="./img/good6.png" alt=""></a>
+							<h3 class="name"><a href="">小米真无线蓝牙耳机Air2</a></h3>
+							<h4 class="desc">智能真无线， 轻松舒适戴</h4>
+							<p class="price"><span>299元</span><del>399元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<span class="tags glibly">满减200元</span>
+							<a href="" class="pic"><img src="./img/good6.png" alt=""></a>
+							<h3 class="name"><a href="">小米真无线蓝牙耳机Air2</a></h3>
+							<h4 class="desc">智能真无线， 轻松舒适戴</h4>
+							<p class="price"><span>299元</span><del>399元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="last-more">
+							<div class="good-top col-5">
+								<div class="txt">
+									<h3><a href="">小米小爱触屏音箱</a></h3>
+									<p><a href="">199元</a></p>
+								</div>
+								<a href="" class="sm-img">
+									<img src="./img/sm-img8.png" alt="">
+								</a>
+							</div>
+							<div class="good-more col-5">
+								<div class="txt">
+									<h3><a href="">浏览更多</a></h3>
+									<p><a href="">热门</a></p>
+								</div>
+								<i class="iconfont icon-xiangyou1"></i>
+							</div>
+						</div>
+					</div>
+					<div class="good-box">
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good10.png" alt=""></a>
+							<h3 class="name"><a href="">小米蓝牙项圈耳机</a></h3>
+							<h4 class="desc">挂在脖子上的好耳机</h4>
+							<p class="price"><span>199元起</span><del>299元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good10.png" alt=""></a>
+							<h3 class="name"><a href="">小米蓝牙项圈耳机</a></h3>
+							<h4 class="desc">挂在脖子上的好耳机</h4>
+							<p class="price"><span>199元起</span><del>299元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good10.png" alt=""></a>
+							<h3 class="name"><a href="">小米蓝牙项圈耳机</a></h3>
+							<h4 class="desc">挂在脖子上的好耳机</h4>
+							<p class="price"><span>199元起</span><del>299元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good10.png" alt=""></a>
+							<h3 class="name"><a href="">小米蓝牙项圈耳机</a></h3>
+							<h4 class="desc">挂在脖子上的好耳机</h4>
+							<p class="price"><span>199元起</span><del>299元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good10.png" alt=""></a>
+							<h3 class="name"><a href="">小米蓝牙项圈耳机</a></h3>
+							<h4 class="desc">挂在脖子上的好耳机</h4>
+							<p class="price"><span>199元起</span><del>299元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good10.png" alt=""></a>
+							<h3 class="name"><a href="">小米蓝牙项圈耳机</a></h3>
+							<h4 class="desc">挂在脖子上的好耳机</h4>
+							<p class="price"><span>199元起</span><del>299元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good10.png" alt=""></a>
+							<h3 class="name"><a href="">小米蓝牙项圈耳机</a></h3>
+							<h4 class="desc">挂在脖子上的好耳机</h4>
+							<p class="price"><span>199元起</span><del>299元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="last-more">
+							<div class="good-top col-5">
+								<div class="txt">
+									<h3><a href="">小米双单元半入耳式耳机</a></h3>
+									<p><a href="">59元</a></p>
+								</div>
+								<a href="" class="sm-img">
+									<img src="./img/sm-img11.png" alt="">
+								</a>
+							</div>
+							<div class="good-more col-5">
+								<div class="txt">
+									<h3><a href="">浏览更多</a></h3>
+									<p><a href="">耳机音箱</a></p>
+								</div>
+								<i class="iconfont icon-xiangyou1"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="idx-adv">
+					<a href=""><img src="./img/long-adv5.png" alt=""></a>
+				</div>
+				<!-- 配件 -->
+				<div class="idx-gadget">
+					<div class="idx-title">
+						<span class="tit">配件</span>
+						<ul class="list plates">
+							<li class="active" onmouseover="switchgood(3,0)"><span>热门</span></li>
+							<li onmouseover="switchgood(3,1)"><span>充电器</span></li>
+						</ul>
+					</div>
+				<div class="idx-box">
+					<div class="adv-box">
+						<a href="" class="double col-5">
+							<img src="./img/slide7.png" alt="">
+						</a>
+						<a href="" class="double col-5">
+							<img src="./img/slide8.png" alt="">
+						</a>
+					</div>
+					<div class="good-box">
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good7.png" alt=""></a>
+							<h3 class="name"><a href="">小米无线充电宝青春版10000mAh</a></h3>
+							<h4 class="desc">能量满满  无线有线都能充</h4>
+							<p class="price"><span>129元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good7.png" alt=""></a>
+							<h3 class="name"><a href="">小米无线充电宝青春版10000mAh</a></h3>
+							<h4 class="desc">能量满满  无线有线都能充</h4>
+							<p class="price"><span>129元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good7.png" alt=""></a>
+							<h3 class="name"><a href="">小米无线充电宝青春版10000mAh</a></h3>
+							<h4 class="desc">能量满满  无线有线都能充</h4>
+							<p class="price"><span>129元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good7.png" alt=""></a>
+							<h3 class="name"><a href="">小米无线充电宝青春版10000mAh</a></h3>
+							<h4 class="desc">能量满满  无线有线都能充</h4>
+							<p class="price"><span>129元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good7.png" alt=""></a>
+							<h3 class="name"><a href="">小米无线充电宝青春版10000mAh</a></h3>
+							<h4 class="desc">能量满满  无线有线都能充</h4>
+							<p class="price"><span>129元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good7.png" alt=""></a>
+							<h3 class="name"><a href="">小米无线充电宝青春版10000mAh</a></h3>
+							<h4 class="desc">能量满满  无线有线都能充</h4>
+							<p class="price"><span>129元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good7.png" alt=""></a>
+							<h3 class="name"><a href="">小米无线充电宝青春版10000mAh</a></h3>
+							<h4 class="desc">能量满满  无线有线都能充</h4>
+							<p class="price"><span>129元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="last-more">
+							<div class="good-top col-5">
+								<div class="txt">
+									<h3><a href="">小米9 SE街头风保护壳</a></h3>
+									<p><a href="">49元</a></p>
+								</div>
+								<a href="" class="sm-img">
+									<img src="./img/sm-img4.png" alt="">
+								</a>
+							</div>
+							<div class="good-more col-5">
+								<div class="txt">
+									<h3><a href="">浏览更多</a></h3>
+									<p><a href="">热门</a></p>
+								</div>
+								<i class="iconfont icon-xiangyou1"></i>
+							</div>
+						</div>
+					</div>
+					<div class="good-box">
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good11.png" alt=""></a>
+							<h3 class="name"><a href="">小米立式无线充电器 通用快充20W</a></h3>
+							<h4 class="desc">横竖可充， 迅速感应边充边玩</h4>
+							<p class="price"><span>99元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good11.png" alt=""></a>
+							<h3 class="name"><a href="">小米立式无线充电器 通用快充20W</a></h3>
+							<h4 class="desc">横竖可充， 迅速感应边充边玩</h4>
+							<p class="price"><span>99元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good11.png" alt=""></a>
+							<h3 class="name"><a href="">小米立式无线充电器 通用快充20W</a></h3>
+							<h4 class="desc">横竖可充， 迅速感应边充边玩</h4>
+							<p class="price"><span>99元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good11.png" alt=""></a>
+							<h3 class="name"><a href="">小米立式无线充电器 通用快充20W</a></h3>
+							<h4 class="desc">横竖可充， 迅速感应边充边玩</h4>
+							<p class="price"><span>99元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good11.png" alt=""></a>
+							<h3 class="name"><a href="">小米立式无线充电器 通用快充20W</a></h3>
+							<h4 class="desc">横竖可充， 迅速感应边充边玩</h4>
+							<p class="price"><span>99元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good11.png" alt=""></a>
+							<h3 class="name"><a href="">小米立式无线充电器 通用快充20W</a></h3>
+							<h4 class="desc">横竖可充， 迅速感应边充边玩</h4>
+							<p class="price"><span>99元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good11.png" alt=""></a>
+							<h3 class="name"><a href="">小米立式无线充电器 通用快充20W</a></h3>
+							<h4 class="desc">横竖可充， 迅速感应边充边玩</h4>
+							<p class="price"><span>99元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="last-more">
+							<div class="good-top col-5">
+								<div class="txt">
+									<h3><a href="">小米插线板（含3口USB    2A快充）</a></h3>
+									<p><a href="">49元</a></p>
+								</div>
+								<a href="" class="sm-img">
+									<img src="./img/sm-img9.png" alt="">
+								</a>
+							</div>
+							<div class="good-more col-5">
+								<div class="txt">
+									<h3><a href="">浏览更多</a></h3>
+									<p><a href="">充电器</a></p>
+								</div>
+								<i class="iconfont icon-xiangyou1"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="idx-adv">
+					<a href=""><img src="./img/long-adv6.png" alt=""></a>
+				</div>
+				<!-- 周边 -->
+				<div class="idx-peripheral">
+					<div class="idx-title">
+						<span class="tit">周边</span>
+						<ul class="list plates">
+							<li class="active" onmouseover="switchgood(4,0)"><span>热门</span></li>
+							<li onmouseover="switchgood(4,1)"><span>出行</span></li>
+						</ul>
+					</div>
+				<div class="idx-box">
+					<div class="adv-box">
+						<a href="" class="double col-5">
+							<img src="./img/slide9.png" alt="">
+						</a>
+						<a href="" class="double col-5">
+							<img src="./img/slide10.png" alt="">
+						</a>
+					</div>
+					<div class="good-box">
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good8.png" alt=""></a>
+							<h3 class="name"><a href="">米家飞行员太阳镜Pro</a></h3>
+							<h4 class="desc">尼龙偏光  精巧佩戴</h4>
+							<p class="price"><span>199元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good8.png" alt=""></a>
+							<h3 class="name"><a href="">米家飞行员太阳镜Pro</a></h3>
+							<h4 class="desc">尼龙偏光  精巧佩戴</h4>
+							<p class="price"><span>199元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good8.png" alt=""></a>
+							<h3 class="name"><a href="">米家飞行员太阳镜Pro</a></h3>
+							<h4 class="desc">尼龙偏光  精巧佩戴</h4>
+							<p class="price"><span>199元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good8.png" alt=""></a>
+							<h3 class="name"><a href="">米家飞行员太阳镜Pro</a></h3>
+							<h4 class="desc">尼龙偏光  精巧佩戴</h4>
+							<p class="price"><span>199元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good8.png" alt=""></a>
+							<h3 class="name"><a href="">米家飞行员太阳镜Pro</a></h3>
+							<h4 class="desc">尼龙偏光  精巧佩戴</h4>
+							<p class="price"><span>199元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good8.png" alt=""></a>
+							<h3 class="name"><a href="">米家飞行员太阳镜Pro</a></h3>
+							<h4 class="desc">尼龙偏光  精巧佩戴</h4>
+							<p class="price"><span>199元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good8.png" alt=""></a>
+							<h3 class="name"><a href="">米家飞行员太阳镜Pro</a></h3>
+							<h4 class="desc">尼龙偏光  精巧佩戴</h4>
+							<p class="price"><span>199元</span></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="last-more">
+							<div class="good-top col-5">
+								<div class="txt">
+									<h3><a href="">MIJOY唱片机 车载香蕉</a></h3>
+									<p><a href="">49元</a></p>
+								</div>
+								<a href="" class="sm-img">
+									<img src="./img/sm-img10.png" alt="">
+								</a>
+							</div>
+							<div class="good-more col-5">
+								<div class="txt">
+									<h3><a href="">浏览更多</a></h3>
+									<p><a href="">热门</a></p>
+								</div>
+								<i class="iconfont icon-xiangyou1"></i>
+							</div>
+						</div>
+					</div>
+					<div class="good-box">
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good12.png" alt=""></a>
+							<h3 class="name"><a href="">90分框体旅行箱</a></h3>
+							<h4 class="desc">专利轻量合金中框， 轻盈坚固</h4>
+							<p class="price"><span>399元起</span><del>699元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good12.png" alt=""></a>
+							<h3 class="name"><a href="">90分框体旅行箱</a></h3>
+							<h4 class="desc">专利轻量合金中框， 轻盈坚固</h4>
+							<p class="price"><span>399元起</span><del>699元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good12.png" alt=""></a>
+							<h3 class="name"><a href="">90分框体旅行箱</a></h3>
+							<h4 class="desc">专利轻量合金中框， 轻盈坚固</h4>
+							<p class="price"><span>399元起</span><del>699元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good12.png" alt=""></a>
+							<h3 class="name"><a href="">90分框体旅行箱</a></h3>
+							<h4 class="desc">专利轻量合金中框， 轻盈坚固</h4>
+							<p class="price"><span>399元起</span><del>699元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good12.png" alt=""></a>
+							<h3 class="name"><a href="">90分框体旅行箱</a></h3>
+							<h4 class="desc">专利轻量合金中框， 轻盈坚固</h4>
+							<p class="price"><span>399元起</span><del>699元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good12.png" alt=""></a>
+							<h3 class="name"><a href="">90分框体旅行箱</a></h3>
+							<h4 class="desc">专利轻量合金中框， 轻盈坚固</h4>
+							<p class="price"><span>399元起</span><del>699元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="good-item col-5">
+							<a href="" class="pic"><img src="./img/good12.png" alt=""></a>
+							<h3 class="name"><a href="">90分框体旅行箱</a></h3>
+							<h4 class="desc">专利轻量合金中框， 轻盈坚固</h4>
+							<p class="price"><span>399元起</span><del>699元</del></p>
+							<div class="addtobox" onclick="addTOGoodBox(this)">加入购物车</div>
+						</div>
+						<div class="last-more">
+							<div class="good-top col-5">
+								<div class="txt">
+									<h3><a href="">自动折叠伞</a></h3>
+									<p><a href="">89元</a></p>
+								</div>
+								<a href="" class="sm-img">
+									<img src="./img/sm-img5.png" alt="">
+								</a>
+							</div>
+							<div class="good-more col-5">
+								<div class="txt">
+									<h3><a href="">浏览更多</a></h3>
+									<p><a href="">出行</a></p>
+								</div>
+								<i class="iconfont icon-xiangyou1"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="idx-adv">
+					<a href=""><img src="./img/long-adv7.png" alt=""></a>
+				</div>
+				<!-- 视频 -->
+				<div class="idx-video">
+					<div class="idx-title">
+						<span class="tit">视频</span>
+						<a href="" class="showall">
+							查看全部<i class="iconfont icon-Group-"></i>
+						</a>
+					</div>
+					<div class="video-box">
+						<div class="col-4 video-item" onclick="popUp(1)">
+							<a class="pic"><img src="./img/video-img1.PNG" alt=""></a>
+							<h3><a >Redmi 10X系列发布会</a></h3>
+							<a ><span>Redmi 10X系列发布会</span></a>
+							<a class="play" ><i class="iconfont icon-bofang"></i></a>
+						</div>
+						<div class="col-4 video-item" onclick="popUp(2)">
+							<a  class="pic" ><img src="./img/video-img2.png" alt=""></a>
+							<h3><a >小米10 青春版 发布会</a></h3>
+							<a class="play" ><i class="iconfont icon-bofang"></i></a>
+						</div>
+						<div class="col-4 video-item" onclick="popUp(3)">
+							<a class="pic"><img src="./img/video-img3.png" alt=""></a>
+							<h3><a >小米10 8K手机拍大片</a></h3>
+							<a class="play"><i class="iconfont icon-bofang"></i></a>
+						</div>
+						<div class="col-4 video-item" onclick="popUp(4)">
+							<a class="pic"><img src="./img/video-img4.png" alt=""></a>
+							<h3><a>小米10发布会</a></h3>
+							<a class="play"><i class="iconfont icon-bofang"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 大内容区E -->
+		<!-- 公共底部区域S -->
+		<div class="bottom-container">
+			<div class="page-footer ">
+				<div class="after-sale container">
+					<div class="after-service">
+						<a href="" class="col-5"><i class="iconfont icon-buoumaotubiao46"></i><span>预约维修服务</span></a>
+						<a href="" class="col-5 line"><i class="iconfont icon-7"></i><span>7天无理由退货</span></a>
+						<a href="" class="col-5 line"><i class="iconfont icon-15"></i><span>15天免费换货</span></a>
+						<a href="" class="col-5 line"><i class="iconfont icon-libao"></i><span>满99元包邮</span></a>
+						<a href="" class="col-5 line"><i class="iconfont icon-weizhi"></i><span>520余家售后网点</span></a>
+					</div>
+					    <div class="help">
+							<div class="block">
+								<h3 class="tit">帮助中心</h3>
+								<a href=""><p>账户管理</p></a>
+								<a href=""><p>购物指南</p></a>
+								<a href=""><p>订单操作</p></a>
+							</div>
+							<div class="block">
+								<h3 class="tit">帮助中心</h3>
+								<a href=""><p>账户管理</p></a>
+								<a href=""><p>购物指南</p></a>
+								<a href=""><p>订单操作</p></a>
+							</div>
+							<div class="block">
+								<h3 class="tit">帮助中心</h3>
+								<a href=""><p>账户管理</p></a>
+								<a href=""><p>购物指南</p></a>
+								<a href=""><p>订单操作</p></a>
+							</div>
+							<div class="block">
+								<h3 class="tit">帮助中心</h3>
+								<a href=""><p>账户管理</p></a>
+								<a href=""><p>购物指南</p></a>
+								<a href=""><p>订单操作</p></a>
+							</div>
+							<div class="block">
+								<h3 class="tit">帮助中心</h3>
+								<a href=""><p>账户管理</p></a>
+								<a href=""><p>购物指南</p></a>
+								<a href=""><p>订单操作</p></a>
+							</div>
+							<div class="block last">
+								<h3 class="tit">帮助中心</h3>
+								<a href=""><p>账户管理</p></a>
+								<a href=""><p>购物指南</p></a>
+								<a href=""><p>订单操作</p></a>
+							</div>
+							<div class="contact-us">
+								<h2>400-100-5678</h2>
+								<p class="time">8:00-18:00（仅收市话费）</p>
+								<a href="" class="staff-service"><i class="iconfont icon-xinxi"></i><span>人工客服</span></a>
+								<span class="concern">关注小米：</span>
+								<a href="" class="weibo"><i class="iconfont icon-weibo"></i></a>
+								<i class="iconfont icon-weixin wechat"></i>
+								<img class="qr" src="./img/wx-img.png" alt="">
+							</div>
+						</div>
+					</div>
+				<div class="copyright">
+					<div class="container">
+						<i class="iconfont icon-xiaomi"></i>
+						<div class="bottom-nav">
+							<a href="">小米商城</a>
+							<span>|</span>
+							<a href="">MIUI</a>
+							<span>|</span>
+							<a href="">米家</a>
+							<span>|</span>
+							<a href="">米聊</a>
+							<span>|</span>
+							<a href="">多看</a>
+							<span>|</span>
+							<a href="">游戏</a>
+							<span>|</span>
+							<a href="">政企服务</a>
+							<span>|</span>
+							<a href="">小米天猫店</a>
+							<span>|</span>
+							<a href="">小米集团隐私政策</a>
+							<span>|</span>
+							<a href="">小米集团儿童信息保护规则</a>
+							<span>|</span>
+							<a href="">小米商城集团隐私政策</a>
+							<span>|</span>
+							<a href="">小米商城用户协议</a>
+							<span>|</span>
+							<a href="">问题反馈</a>
+							<span>|</span>
+							<a href="">Select Location</a>
+						</div>
+						<div class="copyright-item">
+							<p>
+								<span>©</span>
+								<a href="">mi.com</a>
+								<span>京ICP证110507号</span>
+								<a href="">京ICP备10046444号</a>
+								<a href="">京公网安备11010802020134号</a>
+								<a href="">京网文[2020]0276-042号</a>
+							</p>
+							<p>
+								<a href="">（京）网械平台备字（2018）第00005号</a>
+								<a href="">互联网药品信息服务资格证 (京)-非经营性-2014-0090</a>
+								<a href="">营业执照</a>
+								<a href="">医疗器械质量公告</a>
+							</p>
+							<p>
+								<a href="">增值电信业务许可证</a>
+								<span> 网络食品经营备案 京食药网食备202010048 </span>
+								<a href="">食品经营许可证</a>
+							</p>
+							<p>
+								<span>违法和不良信息举报电话：171-5104-4404 </span>
+								<a href="">知识产权侵权投诉</a>
+								<span> 本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 公共底部区域E -->
+		<!-- 侧边浮动导航栏S -->
+		<div class="right-nav">
+			<div class="rightnav-item">
+				<i class="iconfont icon-shouji"></i>
+				<span>手机APP</span>
+				<div class="qr">
+					<img src="./img/wx-img.png" alt="" >
+					<span>扫码领取新人百元礼包</span>
+				</div>
+			</div>
+			<a class="rightnav-item">
+				<i class="iconfont icon-gerenzhongxin"></i>
+				<span>个人中心</span>
+			</a>
+			<a class="rightnav-item">
+				<i class="iconfont icon-buoumaotubiao46"></i>
+				<span>售后服务</span>
+			</a>
+			<a class="rightnav-item">
+				<i class="iconfont icon-kefu"></i>
+				<span>人工客服</span>
+			</a>
+			<a class="rightnav-item">
+				<i class="iconfont icon-gouwuchekong"></i>
+				<span>购物车</span>
+			</a>
+			<div class="rightnav-item" id="toTop">
+				<i class="iconfont icon-huidingbu"></i>
+				<span>回顶部</span>
+			</div>
+		</div>
+		<!-- 侧边浮动导航栏E -->
+		<!-- 视频区域S -->
+		<div class="idx-video-bgc" id="videoBgc"></div>
+		<div class="idx-video-box" id="video">
+			<div class="title">
+				<span>小米10 青春版 发布会</span>
+				<i class="close" id="close"></i>
+			</div>
+			<div class="video-box" id="videoBox">
+				<video src="" ></video>
+				<div class="play-btn" id="playBtn"><i></i></div>
+				<div class="controls" id="controls">
+					<div class="bar" id="videoProgressBar">
+						<a id="progressBar"><span></span></a>
+					</div>
+					<div class="cont-box">
+						<div class="state" id="state">pause</div>
+						<div class="play-icon normal" id="playIcon"></div>
+						<div class="play-times">
+							<span class="cur" id="cur">00:29</span>/<span class="all" id="totalTime"></span>
+						</div>
+						<div class="screenState" id="screenState">wideScreen</div>
+						<a  class="play-icon icon-full" id="fullScreen"></a>
+						<div class="vol">
+							<div class="volState" id="volState">0.25</div>
+							<a  class="play-icon icon-vol" id="iconVol"></a>
+							<div class="vol-bar" id="volBar">
+								<a id="currentVolum"><span></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 视频区域E -->
+		
+	<!-- 引入JS文件 -->
+	<script  src="/xiaomi/js/accounts.js"></script>
+	<script src="./js/main.js"></script>
+	</body>
+</html>

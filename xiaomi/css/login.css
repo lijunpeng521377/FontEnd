@@ -1,0 +1,254 @@
+.top {
+	display: block;
+	width: 1206px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 60px;
+}
+
+.top .logo {
+	display: block;
+	width: 54px;
+	height: 54px;
+	float: left;
+	margin-top: 30px;
+	background: #FE6700 url(../img/xiaomi.png) center center no-repeat;
+}
+
+.top .tit {
+	display: block;
+	float: left;
+	margin-top: 18px;
+	margin-left: 20px;
+	width: 180px;
+	height: 60px;
+	text-align: center;
+}
+
+.top .tit h3 {
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.top .tit p {
+	font-size: 12px;
+}
+
+.index-box {
+	margin-top:60px ;
+	display: block;
+	position: relative;
+}
+	
+
+.index-box .pic,
+.index-box .pic img{
+	width: 100%;
+	height: 586px;
+}
+
+
+.index-box .content {
+	display: block;
+	position: absolute;
+	width: 615px;
+	height: 565px;
+	background-color: #fff;
+	top:50px;
+	left:150px;
+}
+
+.index-box .login-mode {
+	margin-top: 40px;
+	display: block;
+	width: 615px;
+	height:25px;
+}
+
+.index-box .login-mode a {
+	width: 203px;
+	display: block;
+	float: left;
+	font-size: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: #666666;
+	position: relative;
+}
+
+.index-box .login-mode .active {
+	color: #fe6700;
+}
+
+.index-box .login-mode a:hover {
+	color: #fe6700;
+}
+
+.index-box .login-mode .bl:before {
+	content: "";
+	display: block;
+	width: 2px;
+	height: 20px;
+	background-color: #b0b0b0;
+	position: absolute;
+	top:4px;
+	left: 0;
+}
+
+.index-box .accountLogin {
+	padding-top: 100px;
+	display: block;
+	width: 420px;
+	height: 400px;
+	margin-left: 120px;
+	font-size: 20px;
+}
+
+.index-box .accountLogin .input {
+	display: block;
+	margin-left: 10px;
+	width: 400px;
+	height: 50px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.index-box  .warning {
+	display: none;
+	font-size: 12px;
+	width: 85px;
+	color: #FE6700;
+	padding-left: 10px;
+	height: 40px;
+}
+
+.index-box  .warning .warn-txt {
+	display: block;
+	width: 300px;
+	float: left;
+	padding-left: 25px;
+}
+
+.index-box  .warning i{
+	display: block;
+	font-size: 20px;
+	width: 10px;
+	height: 5px;
+	color: #FE6700;
+	float: left;
+}
+
+.index-box .accountLogin .btn {
+	display: block;
+	width: 400px;
+	height: 50px;
+	font-size: 25px;
+	color: #fff;
+	margin-left: 10px;
+	background-color: #fe6700;
+	border: none;
+}
+
+.index-box  .qrLogin {
+	padding-top: 100px;
+	padding-left: 100px;
+	height: 400px;
+	width:400px ;
+	display: none;
+	text-align: center;
+	position: relative;
+}
+
+.index-box  .qrLogin img {
+	width: 250px;
+	height: 250px;
+	margin-bottom: 20px;
+}
+
+.index-box  .qrLogin span {
+	color: #fe6700;
+}
+
+.index-box .register {
+	padding-top: 20px;
+	display: none;
+	width: 420px;
+	height: 400px;
+	margin-left: 110px;
+	font-size: 20px;
+	position:relative;
+}
+
+.index-box .register .input {
+	display: block;
+	margin-left: 10px;
+	width: 400px;
+	height: 50px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	border: 1px solid #666666;
+}
+
+
+.index-box .register .select-area {
+	margin-left: 10px;
+	display: none;
+	width: 400px;
+	height: 50px;
+	font-size: 15px;
+}
+
+.index-box .register .select-area select {
+	width: 120px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.index-box .register .btn {
+	display: block;
+	width: 400px;
+	height: 40px;
+	font-size: 20px;
+	color: #fff;
+	margin-left: 10px;
+	background-color: #fe6700;
+	border: none;
+}
+
+.footer {
+	display: block;
+	width: 100%;
+	height: 200px;
+	position: relative;
+}
+
+.footer .part1{
+	position: absolute;
+	display: block;
+	left:500px ;
+	top: 120px;
+}
+
+.footer .part1 .bl {
+	display: inline-block;
+	position: relative;
+	margin-left: 10px;
+}
+
+.footer .part1 .bl:before {
+	content: "";
+	width: 1px;
+	height: 12px;
+	background-color: #666666;
+	position: absolute;
+	display: block;
+	left:-8px;
+	top:5px;
+}
+
+.footer .part2{
+	position: absolute;
+	display: block;
+	left:400px;
+	top: 140px;
+}

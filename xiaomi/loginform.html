@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>小米商城 - 小米10 Pro、Redmi 10X、小米MIX Alpha，小米电视官方网站</title>
+		<meta name="keywords" content="小米,redmi,小米10,Redmi 10X,小米MIX Alpha,小米商城"/>
+		<meta name="description" content="小米官网直营小米公司旗下所有产品，包括小米手机系列小米10 Pro 、小米9、小米MIX Alpha，Redmi 红米系列Redmi 10X、Redmi K30，小米电视、笔记本、米家智能家居等，同时提供小米客户服务及售后支持."/>
+		<!--处理默认样式-->
+		<link rel="stylesheet"  href="./css/reset.css"/>
+		<!-- 登录界面样式 -->
+		<link rel="stylesheet" type="text/css" href="./css/login.css"/>
+		<!--字体图表样式-->
+		<link rel="stylesheet" href="./font/iconfont.css">
+	</head>
+	<body>
+		<!-- 顶部区域-->
+		<div class="top">
+			<a href="index.html" class="logo">
+				
+			</a>
+			<a href="index.html" class="tit">
+				<h3>小米商城</h3>
+				<p>让每个人都能享受科技的乐趣</p>
+			</a>
+		</div>
+		<!-- 内容区 -->
+		<div class="index-box">
+			<a href="" class="pic">
+				<img src="./img/banner-img4.png" alt="">
+			</a>
+			<div class="content">
+				<div class="login-mode">
+					<a href="javascript:;" class="by_account active" id="by_account" onclick="displayLogin()">账号登录</a>
+					<a href="javascript:;"  class="by_qr bl" id="by_qr" onclick="displayQr()">扫码登录</a>
+					<a href="javascript:;" class="sign_in bl" id="sign_in" onclick="displayRegis()">注册</a>
+				</div>
+				<div class="accountLogin">
+					<form action="">
+						<lable for="name"></lable>
+						<input type="text" id="name" class="input" placeholder="邮箱/手机号码/小米ID" >
+						<lable for="veriPassword"></lable>
+						<input type="password" id="veriPassword" class="input" placeholder="密码">
+						<p class="warning"  id="hint"><i class= "iconfont icon-gantanhao"></i><span id="warn" class="warn-txt">请输入密码</span></p>
+						<lable for="submit"></lable></p>
+						<input type="button" id="submit" value="登录" class="btn" onclick="checkAccount()">
+					</form>
+				</div>
+				<div class="qrLogin">
+					<img src="./img/login.png" alt="">
+					<p>使用 <span>小米商城APP</span> 扫一扫</p>
+					<p>小米手机可打开「设置」>「小米帐号」扫码登录</p>
+				</div>
+				<div class="register">
+					<form action="">
+						<lable for="area"></lable>
+						<input type="text" id="area" class="input"  readonly="readonly" placeholder="请选择你的地区"  onclick="showSelect()">
+						<div class="select-area" id="selectArea">
+							<!-- 省份选择 -->
+							<select id="prov" onchange="showCity(this)">
+								<option value ="">=请选择省份=</option>
+							</select>
+							<!-- 城市选择 -->
+							<select id="city" onchange="showCountry(this)">
+								<option value =""  >=请选择城市=</option>
+							</select >
+							<!-- 县区选择 -->
+							<select id="country" onchange="showArea(this)">
+								<option value ="">=请选择县区=</option>
+							</select>
+						</div>
+						<lable for="password"></lable>
+						<input type="password" id="password" class="input" placeholder="请设置密码" onclick="hideSelect()">
+						<lable for="password-again"></lable>
+						<input type="password" id="password-again" class="input" placeholder="请再输入一次密码" onclick="hideSelect()" onchange="checkPassword(this)">
+						<p class="warning"  id="prompt"><i class= "iconfont icon-gantanhao"></i><span id="warnmsg" class="warn-txt">与设置的密码不一致</span></p>
+						<lable for="email"></lable>
+						<input type="email" id="email" class="input" placeholder="邮箱" onclick="hideSelect()" onchange="checkEmail(this)">
+						<p class="warning"  id="tip"><i class= "iconfont icon-gantanhao"></i><span id="tipmsg" class="warn-txt">邮箱格式不正确</span></p>
+						<lable for="phonenumber"></lable>
+						<input type="text" id="phonenumber" class="input" placeholder="电话号码" onclick="hideSelect()" onchange="checkPhonenumber(this)">
+						<p class="warning"  id="check"><i class= "iconfont icon-gantanhao"></i><span id="checkmsg" class="warn-txt">非法的电话号码</span></p>
+						<lable for="submit"></lable></p>
+						<input type="button" id="signin" value="注册" class="btn" onclick="saveAccount()" >
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- 页脚 -->
+		<div class="footer">
+			<p class="part1">
+				<span>简体</span>
+				<span class="bl">繁体</span>
+				<span class="bl">English</span>
+				<span class="bl">常见问题</span>
+				<span class="bl">隐私政策</span>
+			</p>
+			<p class="part2">
+				<span>小米公司版权所有-京ICP备10046444</span>
+				<img src="./img/ghs.png" alt="" class="ghs">
+				<span>京公网安备11010802020134号-京ICP证110507号</span>
+			</p>
+		</div>
+	<!-- 引入JS文件 -->
+	<script  src="/xiaomi/js/city.js"></script>
+	<script  src="/xiaomi/js/accounts.js"></script>
+	<script type="text/javascript" src="/xiaomi/js/login.js"></script>
+	</body>
+</html>
